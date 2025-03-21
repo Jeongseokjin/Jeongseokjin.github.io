@@ -41,11 +41,14 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/jeongseokjin.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Java/Spring 백엔드 개발자로서 "가성비 좋은 개발"을 추구합니다. AI 물류 최적화 솔루션 Allogic에서 물류 효율화에 집중하고 있습니다.
+  Java/Spring 백엔드 개발자로서 "가성비 좋은 개발"을 추구합니다.
+  AI 물류 최적화 솔루션 Allogic에서 물류 최적화에 집중하고 있습니다.
 
-  임베디드 설비 분야 경험을 통해 다양한 이해관계자와 소통하며 데이터 기반 문제 해결 역량을 키웠습니다. 설계팀과 현장팀의 갈등을 데이터로 해결했던 경험은 개발자와 사용자 간 요구사항 격차를 메우는 자산이 되었습니다.
+  임베디드 설비 분야 경험을 통해 다양한 이해관계자 간 소통과 데이터 기반 의사결정 능력을 키웠습니다. 
+  이는 개발자와 사용자 사이의 요구사항 격차를 효과적으로 해소하는 데 큰 자산이 되고 있습니다.
 
-  코드 결벽증을 바탕으로 깔끔한 코드를 지향하며, 사용자 경험을 이해하는 개발자가 되기 위해 TDD와 애자일 방식을 선호합니다. 개발 지식과 경험을 블로그에 기록하며 지속적인 성장을 추구합니다.
+  코드 결벽증을 바탕으로 깔끔한 코드를 지향하며, 사용자 경험을 이해하는 개발자가 되기 위해 TDD와 애자일 방식을 선호합니다. 
+  개발 지식과 경험을 블로그에 기록하며 지속적인 성장을 추구합니다.
 
 content:
   - title: Experience # Title for the section
@@ -150,11 +153,11 @@ content:
       - layout: left
         title: 기술 서적 리뷰 참여
         description: | # this will include new lines to allow paragraphs
-          - "&lt;코딩 자율 학습 자바 입문 베타 학습단&gt;"
-            - "[학습단 참여 확인서_정석진.pdf](https://rune-lan-2a9.notion.site/1b981bfd238b8054973de480f30a200e?pvs=4)"
-          - "[길벗] &lt;아는 만큼 보이는 IT 지식&gt; 베타 리뷰"
-            - "IT 분야 기초 지식 및 최신 기술 트렌드에 대한 전문적 리뷰 제공"
-            - "개발자 관점에서의 피드백 및 내용 개선 제안"
+          - &lt;코딩 자율 학습 자바 입문 베타 학습단&gt;
+            - [학습단 참여 확인서_정석진.pdf](https://rune-lan-2a9.notion.site/1b981bfd238b8054973de480f30a200e?pvs=4)
+          - [길벗] &lt;아는 만큼 보이는 IT 지식&gt; 베타 리뷰
+            - IT 분야 기초 지식 및 최신 기술 트렌드에 대한 전문적 리뷰 제공
+            - 개발자 관점에서의 피드백 및 내용 개선 제안
       
       - layout: left
         title: 개인 블로그 활동
