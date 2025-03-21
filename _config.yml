@@ -110,7 +110,7 @@ content:
     content:
       - layout: left
         title: 이벤트 기반 아키텍처(EDA) 설계
-        description: | # this will include new lines to allow paragraphs<코딩 자율학습 자바 입문>
+        description: | # this will include new lines to allow paragraphs
           - 스타트업 환경에서 Kafka를 활용한 이벤트 기반 아키텍처 설계 및 구현
           - 물류 시스템의 확장성과 유연성을 고려한 이벤트 드리븐 모델 설계
           - 로그 수집 및 분석을 위한 비동기 통신 구조 기획
@@ -148,13 +148,13 @@ content:
           - 사용자 중심 설계 및 애자일 방식의 개발 경험
       
       - layout: left
-   title: 기술 서적 리뷰 참여
-  description: | # this will include new lines to allow paragraphs
-    - &lt;코딩 자율 학습 자바 입문 베타 학습단&gt;
-      - [학습단 참여 확인서_정석진.pdf](https://rune-lan-2a9.notion.site/1b981bfd238b8054973de480f30a200e?pvs=4)
-    - [길벗] &lt;아는 만큼 보이는 IT 지식&gt; 베타 리뷰
-      - IT 분야 기초 지식 및 최신 기술 트렌드에 대한 전문적 리뷰 제공
-      - 개발자 관점에서의 피드백 및 내용 개선 제안
+        title: 기술 서적 리뷰 참여
+        description: | # this will include new lines to allow paragraphs
+          - "&lt;코딩 자율 학습 자바 입문 베타 학습단&gt;"
+            - "[학습단 참여 확인서_정석진.pdf](https://rune-lan-2a9.notion.site/1b981bfd238b8054973de480f30a200e?pvs=4)"
+          - "[길벗] &lt;아는 만큼 보이는 IT 지식&gt; 베타 리뷰"
+            - "IT 분야 기초 지식 및 최신 기술 트렌드에 대한 전문적 리뷰 제공"
+            - "개발자 관점에서의 피드백 및 내용 개선 제안"
       
       - layout: left
         title: 개인 블로그 활동
