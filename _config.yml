@@ -41,37 +41,77 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/jeongseokjin.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Java/Spring 백엔드 개발자로서 문제 해결자(problem solver)로 성장하고자 합니다.<br>
-               단순히 효율화나 자동화에 그치지 않고 문제를 해결하는 데 초점을 맞춥니다.<br>
-                이는 단순한 코드 효율성을 넘어 조직 전체의 시간과 비용을 절감는 것을 의미합니다.
-하고 업무를 자동화하며 근본적인 비효율을 해소하는 데 기여하
+  Java/Spring 백엔드 개발자로서 문제 해결자(problem solver)로 성장하고자 합니다.
+  저에게 개발은 문제 해결을 위한 도구이며, 단순히 효율화나 자동화에 그치지 않고 문제를 해결하는 데 초점을 맞춥니다.
+  이는 단순한 코드 효율성을 넘어 조직 전체의 시간과 비용을 절감하고 업무를 자동화하며 근본적인 비효율을 해소하는 데 기여하는 것을 의미합니다.
+
 content:
-  - title: Experience # Title for the section
+  - title: Skills # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Backend
+        description: | # this will include new lines to allow paragraphs
+          - Java, Spring Boot, Spring Data JPA, Spring Cloud Stream
+          - Kafka, Event Sourcing
+          - Hibernate, Flyway, JUnit5, Mockito, Testcontainers
+      
+      - layout: left
+        title: Cloud & DevOps
+        description: | # this will include new lines to allow paragraphs
+          - AWS (EC2, ELB, Route 53, S3)
+          - GitHub Actions, CodePipeline
+          - Docker, Kubernetes, Prometheus, Grafana
+      
+      - layout: left
+        title: Database
+        description: | # this will include new lines to allow paragraphs
+          - MySQL, JPQL, QueryDSL, Flyway
+      
+      - layout: left
+        title: Frontend
+        description: | # this will include new lines to allow paragraphs
+          - React.js, Next.js, Three.js
+
+  - title: Work Experience & Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: IT MOO U
-        # link: https://mooexample.com/
-        # link_text: Company Website
         sub_title: 백엔드 개발자 | 물류 최적화 개발자
         caption: 2024.03 - 현재
+        link: https://github.com/Jeongseokjin/allogic-platform
+        link_text: GitHub
+        technologies: Java, Spring Boot, Kafka, Spring Cloud Stream, MongoDB, Docker, Kubernetes, AWS 기술 스택 활용
         quote: >
-          Allogic - AI 기반 물류 최적화 솔루션 개발(스타트업)
+          Allogic - 물류 최적화 솔루션 개발
         description: | # this will include new lines to allow paragraphs
-           - 팔레트 물류 최적화를 위한 MVP를 설계 및 개발하며 초기 서비스 검증 주도
-
-            -  Kafka 기반 이벤트 드리븐 아키텍쳐(EDA)를 설계해 시스템 간 비동기 통신 최적화
-              
-            -  ECS 기반 배포 파이프라인을 구축해 운영비용 15% 절감 및 배포 안정성 확보
-              
-            -  스타트업 환경에서 기획부터 배포까지 풀스택으로 참여하며 문제 해결 역량 강화
+          - 팔레트 물류 최적화를 위한 MVP를 설계 및 개발하며 초기 서비스 검증 주도
+          - Kafka 기반 이벤트 드리븐 아키텍쳐(EDA)를 설계해 시스템 간 비동기 통신 최적화
+          - ECS 기반 배포 파이프라인을 구축해 운영비용 15% 절감 및 배포 안정성 확보
+          - AI 기술을 전략적으로 활용하여 기획부터 배포까지의 프로세스를 효율화함으로써, 초기 제품 검증 단계를 대폭 가속화
+          - 물류 시스템의 확장성을 고려한 클라우드 네이티브 아키텍처 설계
+      
+      - layout: left
+        title: WOORI ZIP
+        caption: 2024.10.21 - 2024.12.06
+        link: https://github.com/woorifisa-projects-3rd/woori-zip-BE
+        link_text: GitHub
+        technologies: React, Next.js, Spring Boot, JPA, MariaDB, AWS(EC2, S3, RDS, Route 53, CodeDeploy), Prometheus, Kakao Maps API 기술 스택 활용
+        quote: >
+          AWS 기반 부동산 정보 플랫폼
+        description: | # this will include new lines to allow paragraphs
+          - Spring Boot와 ML 모델을 활용한 금융 데이터 기반 맞춤형 부동산 추천 시스템 설계 및 구현
+          - OAuth 2.0과 JWT를 활용한 우리은행 계정 연동 및 권한별 인증 시스템 구축
+          - AOP 기반 로깅 시스템을 통해 API 요청/응답 추적 및 모니터링 체계 확립
+          - AWS(EC2, RDS, S3) 기반 클라우드 인프라를 설계하고 CI/CD 파이프라인 구축으로 배포 자동화
+          - 사용자 주택 조건 및 금융 정보에 따른 최적 대출 상품 매칭 알고리즘 개발
+          - [WOORI ZIP 부동산 플랫폼 포트폴리오 설명](https://rune-lan-2a9.notion.site/WOORI-ZIP-1b981bfd238b808cab35d1312bc1c810?pvs=4)
       
       - layout: left
         title: (주)대원프리시전
-        # link: https://daeown.com/
-        # link_text: Company Website
         sub_title: 설비OP 자동차 ESS 설비 기술 주임
-        caption: 2020.10 ~ 2024.04 (44개월)
+        caption: 2020.10 ~ 2024.04 (3년 6개월)
         quote: >
           설비 엔지니어로서 테스트 위주의 설비 개발 및 문제 해결
         description: | # this will include new lines to allow paragraphs
@@ -87,8 +127,6 @@ content:
       
       - layout: left
         title: (주)이한산업
-        # link: https://leehan.com/
-        # link_text: Company Website
         sub_title: 설비OP 설비 개발 사원
         caption: 2020.03 ~ 2020.09 (7개월)
         quote: >
@@ -99,39 +137,23 @@ content:
             - 설비 안전성을 강화하기 위해 안전 센서 및 비상 정지 장치의 도입 및 개선 논의에 적극 참여
           - **팀 간 협업 및 문제 해결**
             - 설계팀, 생산팀과 긴밀히 협력하여 설비 운영 중 발생 가능한 위험 요소를 파악하고 개선 방안 마련
-            - 설비의 효율성과 안전성을 유지하며 작업 환경을 최적화하기 위한 아이디어를 팀 내 공유하고 논의
-          - **설비 안정성 및 테스트 지원**
-            - 설비 프로토타입 테스트 과정에 참여해 데이터를 기반으로 설비 성능 및 안전 요소를 평가
-            - 안전과 생산성을 모두 고려한 개선 방향을 제안하고 설비 개발 과정에 반영
 
-  - title: 핵심 역량
-    layout: list
+  - title: Personal Experience & Projects # Title for the section
+    layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: 이벤트 기반 아키텍처(EDA) 설계
+        quote: >
+          마이크로서비스 간 효율적인 데이터 흐름을 위한 설계 및 구현
         description: | # this will include new lines to allow paragraphs
-          - 스타트업 환경에서 Kafka를 활용한 이벤트 기반 아키텍처 설계 및 구현
           - 물류 시스템의 확장성과 유연성을 고려한 이벤트 드리븐 모델 설계
-          - 로그 수집 및 분석을 위한 비동기 통신 구조 기획
+          - 로그 수집 및 분석을 위한 중앙화
           - 마이크로서비스 아키텍처에서 데이터 일관성 확보를 위한 이벤트 소싱 패턴 적용
       
       - layout: left
-        title: 시스템 개발 및 유지보수
-        description: | # this will include new lines to allow paragraphs
-          - **IT MOO U**
-            - Kafka를 활용한 이벤트 드리븐 아키텍처(EDA) 패러다임 설계 및 개발
-            - 물류 최적화를 위한 데이터 처리 및 분석 파이프라인 구축
-            - 로그 수집 시스템 아키텍처 설계 및 초기 개발 주도
-          - **(주)대원프리시전**
-            - SCADA 시스템을 도입해 설비 데이터 실시간 수집 및 시각화 구현
-            - 센서 데이터를 PLC 시스템과 연동한 자동 조절 시스템 설계 참여
-            - HMI 인터페이스 도입 및 임계값 기반 자동 정지 기능 구현
-          - **(주)이한산업**
-            - 유압 프레스 설비 안전성 강화를 위한 안전 센서 및 비상 정지 장치 개선
-            - 설비 프로토타입 테스트 과정 참여 및 데이터 기반 성능 평가
-      
-      - layout: left
         title: 클라우드 및 DevOps
+        quote: >
+          안정적인 서비스 운영을 위한 인프라 구축
         description: | # this will include new lines to allow paragraphs
           - AWS Cloud 환경에서 서비스 아키텍처 설계 및 구현
           - Docker 및 Kubernetes를 활용한 컨테이너 기반 배포 환경 구성
@@ -140,97 +162,34 @@ content:
       
       - layout: left
         title: 협업 및 의사소통
+        quote: >
+          다양한 이해관계자 간 효과적인 소통으로 프로젝트 성공 기여
         description: | # this will include new lines to allow paragraphs
-          - 다양한 이해관계자(설계팀, 현장팀, 생산팀) 간 효과적인 커뮤니케이션 주도
-          - 설계팀과 현장팀 간 상이한 주장을 데이터로 검증하여 명확한 해결책 도출
           - 팀 내 갈등 최소화를 위한 데이터 기반 의사결정 프로세스 적용
-          - 사용자 중심 설계 및 애자일 방식의 개발 경험
-      
+          - 사용자 중심 설계 및 애자일 방식의 2주마다 실제 설문을 통한 피드백 방영
+
+  - title: Presentation & Article # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
       - layout: left
         title: 기술 서적 리뷰 참여
+        quote: >
+          IT 전문 서적 베타 리뷰 및 학습단 활동
         description: | # this will include new lines to allow paragraphs
-          - &lt;코딩 자율 학습 자바 입문 베타 학습단&gt;
+          - **&lt;코딩 자율학습 자바 입문&gt; 베타 학습단**
             - [학습단 참여 확인서_정석진.pdf](https://rune-lan-2a9.notion.site/1b981bfd238b8054973de480f30a200e?pvs=4)
-          - [길벗] &lt;아는 만큼 보이는 IT 지식&gt; 베타 리뷰
+          - **[길벗] &lt;아는 만큼 보이는 IT 지식&gt; 베타 리뷰**
             - IT 분야 기초 지식 및 최신 기술 트렌드에 대한 전문적 리뷰 제공
             - 개발자 관점에서의 피드백 및 내용 개선 제안
       
       - layout: left
         title: 개인 블로그 활동
+        quote: >
+          지속적인 학습과 지식 공유를 통한 성장
         description: | # this will include new lines to allow paragraphs
           - 개발 과정에서 습득한 지식과 경험을 [블로그](https://1223tjrwls.tistory.com/)에 꾸준히 기록
           - 이슈 해결 사례 및 기술 노하우 공유
           - 물류 최적화 및 이벤트 드리븐 아키텍처 관련 기술 분석
-
-  - title: Skill # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Backend
-        quote: >
-          현재 업무에 사용중 혹은 사용했던 기술들입니다.
-        description: | # this will include new lines to allow paragraphs
-          - Languages: Java
-          - Frameworks: Spring Boot, Spring Data JPA, Spring Cloud Stream, Spring Kafka, QueryDSL
-          - Event-Driven: Kafka, Kafka Streams, Event Sourcing
-          - Tools & Libraries: Hibernate, Flyway, Swagger, Postman, REST Assured, Cypress, AOP, MDC
-          - Testing: JUnit5, Mockito, Testcontainers
-      
-      - layout: left
-        title: Database
-        quote: >
-          현재 업무에 사용중 혹은 사용했던 기술들입니다.
-        description: | # this will include new lines to allow paragraphs
-          - MySQL
-          - 연동 및 쿼리 최적화: JPQL, QueryDSL
-          - 스키마 관리: Flyway
-      
-      - layout: left
-        title: Cloud & DevOps
-        quote: >
-          현재 업무에 사용중 혹은 사용했던 기술들입니다.
-        description: | # this will include new lines to allow paragraphs
-          - AWS: EC2, Elastic Load Balancer (ELB), Route 53, S3
-          - CI/CD: GitHub Actions, CodePipeline
-          - Monitoring: Prometheus, Grafana
-          - Message Broker: Apache Kafka, Kafka Streams
-          - Containerization: Docker, Kubernetes
-      
-      - layout: left
-        title: Frontend
-        quote: >
-          현재 업무에 사용중 혹은 사용했던 기술들입니다.
-        description: | # this will include new lines to allow paragraphs
-          - React.js
-          - Next.js
-          - Three.js
-
-  - title: Project # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Allogic - 물류 이벤트 플랫폼
-        link: https://github.com/Jeongseokjin/allogic-platform
-        caption: 2024.04 - 현재
-        quote: >
-          AI 기반 물류 최적화 솔루션
-        description: | # this will include new lines to allow paragraphs
-          - 스타트업 환경에서 이벤트 드리븐 아키텍처(EDA) 패러다임 설계 참여
-          - Java, Spring Boot, Kafka, Spring Cloud Stream, MongoDB, Docker, Kubernetes, AWS
-          - 물류 시스템의 확장성을 고려한 클라우드 네이티브 아키텍처 설계
-          - Allogic 물류 이벤트 플랫폼 현재 private 진행 중 (링크 불가)
-      
-      - layout: left
-        title: WOORI ZIP
-        link: https://github.com/woorifisa-projects-3rd/woori-zip-BE
-        caption: 2024.10.21 - 2024.12.06
-        quote: >
-          AWS 기반 부동산 정보 플랫폼
-        description: | # this will include new lines to allow paragraphs
-          - 부동산 정보 제공 및 맞춤형 대출 추천 서비스를 제공하는 종합 플랫폼
-          - Java, Spring Boot, Spring Data JPA, MySQL, AWS(EC2, RDS, S3), CI/CD
-          - 클라우드 인프라 설계 및 배포 전략 수립, 모니터링 시스템 구축
-          - [WOORI ZIP 부동산 플랫폼 포트폴리오 설명](https://rune-lan-2a9.notion.site/WOORI-ZIP-1b981bfd238b808cab35d1312bc1c810?pvs=4)
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -251,8 +210,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 전공: 컴퓨터정보공학과
           - 학생회장 활동으로 리더십, 협동심, 문제해결능력 강화
-          - 학과 프로젝트 및 행사 기획으로 유대감 증진
-          - Java, C, Python, Database 등 기초 개발 언어 교육 수료
 
 # Footer
 footer_show_references: true
