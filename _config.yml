@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 정석진
-title: 백엔드 서버 엔지니어 | AI 기반 물류 최적화 개발자
+title: 백엔드 개발자
 email: sj_jeong384@naver.com
 website: https://github.com/Jeongseokjin
 
@@ -59,7 +59,7 @@ content:
         title: IT MOO U
         # link: https://mooexample.com/
         # link_text: Company Website
-        sub_title: 백엔드 개발자 | AI 기반 물류 최적화 개발자
+        sub_title: 백엔드 개발자 | 물류 최적화 개발자
         caption: 2024.03 - 현재
         quote: >
           Allogic - AI 기반 물류 최적화 솔루션 개발(스타트업)
