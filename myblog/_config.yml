@@ -42,8 +42,9 @@ additional_links:
 about_profile_image: images/jeongseokjin.jpg
 about_content: | # this will include new lines to allow paragraphs
   Java/Spring 백엔드 개발자로서 문제 해결자(problem solver)로 성장하고자 합니다.<br>
-  저에게 개발은 문제 해결을 위한 도구이며, 단순히 효율화나 자동화에 그치지 않고 문제를 해결하는 데 초점을 맞춥니다.<br>
-  이는 단순한 코드 효율성을 넘어 조직 전체의 시간과 비용을 절감하고 업무를 자동화하며 근본적인 비효율을 해소하는 데 기여하는 것을 의미합니다.
+  저는 개발을 문제 해결을 위한 도구로 보고, 단순히 효율화나 자동화에 그치지 않고 더 넓은 범위의 문제를 해결하는 데 초점을 맞춥니다.<br>
+  이를 통해 조직의 시간과 비용을 절감하고, 업무를 자동화하며, 근본적인 비효율을 해소하여 조직의 성공에 기여하고자 합니다.<br>
+  Java와 Spring 기술을 활용하여 혁신적인 솔루션을 제공하는 것이 저의 목표입니다.
 
 content:
   - title: Skills # Title for the section
@@ -54,14 +55,16 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Java, Spring Boot, Spring Data JPA, Spring Cloud Stream
           - Kafka, Event Sourcing
-          - Hibernate, Flyway, JUnit5, Mockito, Testcontainers
+          - Hibernate, Flyway
+          - JUnit5, Mockito, Testcontainers
       
       - layout: left
         title: Cloud & DevOps
         description: | # this will include new lines to allow paragraphs
-          - AWS (EC2, ELB, Route 53, S3)
+          - AWS (EC2, ELB, Route 53, S3, RDS, CloudWatch)
           - GitHub Actions, CodePipeline
-          - Docker, Kubernetes, Prometheus, Grafana
+          - Docker, Kubernetes
+          - Prometheus, Grafana
       
       - layout: left
         title: Database
@@ -72,6 +75,14 @@ content:
         title: Frontend
         description: | # this will include new lines to allow paragraphs
           - React.js, Next.js, Three.js
+          - HTML, CSS3, JavaScript (ES6)
+      
+      - layout: left
+        title: Tools & Collaboration
+        description: | # this will include new lines to allow paragraphs
+          - IntelliJ, VS Code
+          - Git, GitHub
+          - Jira, Slack
 
   - title: Work Experience & Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -83,7 +94,6 @@ content:
         link: https://github.com/Jeongseokjin/allogic-platform
         link_text: GitHub
         technologies: Java, Spring Boot, Kafka, Spring Cloud Stream, MongoDB, Docker, Kubernetes, AWS 기술 스택 활용
-
         description: | # this will include new lines to allow paragraphs
           - 팔레트 물류 최적화를 위한 MVP를 설계 및 개발하며 초기 서비스 검증 주도
           - Kafka 기반 이벤트 드리븐 아키텍쳐(EDA)를 설계해 시스템 간 비동기 통신 최적화
@@ -97,7 +107,6 @@ content:
         link: https://github.com/woorifisa-projects-3rd/woori-zip-BE
         link_text: GitHub
         technologies: React, Next.js, Spring Boot, JPA, MariaDB, AWS(EC2, S3, RDS, Route 53, CodeDeploy), Prometheus, Kakao Maps API 기술 스택 활용
-
         description: | # this will include new lines to allow paragraphs
           - Spring Boot와 ML 모델을 활용한 금융 데이터 기반 맞춤형 부동산 추천 시스템 설계 및 구현
           - OAuth 2.0과 JWT를 활용한 우리은행 계정 연동 및 권한별 인증 시스템 구축
@@ -110,7 +119,6 @@ content:
         title: (주)대원프리시전
         sub_title: 설비OP 자동차 ESS 설비 기술 주임
         caption: 2020.10 ~ 2024.04 (3년 6개월)
-
         description: | # this will include new lines to allow paragraphs
           - **비용 최적화 및 불량률 감소**
             - 배터리 사업의 경쟁력을 위해 비용 절감을 최우선 목표로 설정하고, 불량률 감소에 주력
@@ -126,7 +134,6 @@ content:
         title: (주)이한산업
         sub_title: 설비OP 설비 개발 사원
         caption: 2020.03 ~ 2020.09 (7개월)
-
         description: | # this will include new lines to allow paragraphs
           - **유압 프레스 설비 프로젝트 참여**
             - 친환경 소재 압축을 위한 유압 프레스 설비의 개발과 안정화 작업을 팀과 함께 수행
@@ -139,7 +146,6 @@ content:
     content:
       - layout: left
         title: 이벤트 기반 아키텍처(EDA) 설계
-
         description: | # this will include new lines to allow paragraphs
           - 물류 시스템의 확장성과 유연성을 고려한 이벤트 드리븐 모델 설계
           - 로그 수집 및 분석을 위한 중앙화
@@ -147,7 +153,6 @@ content:
       
       - layout: left
         title: 클라우드 및 DevOps
-
         description: | # this will include new lines to allow paragraphs
           - AWS Cloud 환경에서 서비스 아키텍처 설계 및 구현
           - Docker 및 Kubernetes를 활용한 컨테이너 기반 배포 환경 구성
@@ -156,7 +161,6 @@ content:
       
       - layout: left
         title: 협업 및 의사소통
-
         description: | # this will include new lines to allow paragraphs
           - 팀 내 갈등 최소화를 위한 데이터 기반 의사결정 프로세스 적용
           - 사용자 중심 설계 및 애자일 방식의 2주마다 실제 설문을 통한 피드백 방영
@@ -166,7 +170,6 @@ content:
     content:
       - layout: left
         title: 기술 서적 리뷰 참여
-
         description: | # this will include new lines to allow paragraphs
           - **&lt;코딩 자율학습 자바 입문&gt; 베타 학습단**
             - [학습단 참여 확인서_정석진.pdf](https://rune-lan-2a9.notion.site/1b981bfd238b8054973de480f30a200e?pvs=4)
@@ -176,7 +179,6 @@ content:
       
       - layout: left
         title: 개인 블로그 활동
-
         description: | # this will include new lines to allow paragraphs
           - 개발 과정에서 습득한 지식과 경험을 [블로그](https://1223tjrwls.tistory.com/)에 꾸준히 기록
           - 이슈 해결 사례 및 기술 노하우 공유
