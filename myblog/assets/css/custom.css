@@ -112,7 +112,7 @@ ul.icons a{-moz-transition:background-color 0.25s ease-in-out;-webkit-transition
 }
 .layout .details a{color:inherit;font-style:italic;font-weight:300}
 .layout .details .fa{font-size:2rem}
-.layout .details .link{font-size:1.5rem}
+.layout .details .link{font-size:2rem}
 .layout .details h4{margin-bottom:0.1rem;font-weight:500}
 @media print{.layout .details h4{margin-bottom:0.2rem}}
 .layout .details h4 a{font-weight:500}
