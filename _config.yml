@@ -41,9 +41,9 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/jeongseokjin.jpg
 about_content: | # this will include new lines to allow paragraphs
-  저는 Java/Spring 백엔드 개발자로서, 기술로 문제를 해결하며 조직의 성공을 이끄는 데 집중합니다. 
-  시스템 효율성을 극대화하고 혁신적인 솔루션으로 시간과 비용을 절감하는 개발자가 목표입니다. 
-  끊임없는 성장을 통해 조직에 실질적인 가치를 더하겠습니다.
+  백엔드 개발을 좋아하며, 문제 해결자(problem solver)로 성장하고자 합니다.<br>
+              개발을 문제 해결을 위한 도구로 보고, 단순히 효율화나 자동화에 그치지 않고 더 넓은 범위의 문제를 해결하는 데 초점을 맞춥니다.<br>
+              이를 통해 조직의 시간과 비용을 절감하고, 업무를 자동화하며, 근본적인 비효율을 해소하여 조직의 성공에 기여하고자 합니다.
 
 content:
   - title: Skills # Title for the section
