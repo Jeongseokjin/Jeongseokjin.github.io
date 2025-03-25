@@ -178,8 +178,9 @@ content:
       
       - layout: left
         title: 개인 블로그 활동
+        link: https://1223tjrwls.tistory.com/
+        link_text: Blog
         description: | # this will include new lines to allow paragraphs
-          - 개발 과정에서 습득한 지식과 경험을 [블로그](https://1223tjrwls.tistory.com/)에 꾸준히 기록
           - 이슈 해결 사례 및 기술 노하우 공유
           - 물류 최적화 및 이벤트 드리븐 아키텍처 관련 기술 분석
 
