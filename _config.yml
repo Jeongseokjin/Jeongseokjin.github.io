@@ -84,7 +84,7 @@ content:
           - Git, GitHub
           - Jira, Slack
 
-  - title: Work Experience & Projects # Title for the section
+  - title: Projects & Work Experience  # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
