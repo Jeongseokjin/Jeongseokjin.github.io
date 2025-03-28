@@ -1,0 +1,20 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+.link {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 5px 12px;
+    background-color: #24292e;
+    color: white !important;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .link:hover {
+    background-color: #0366d6;
+    text-decoration: none;
+  }

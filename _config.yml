@@ -44,11 +44,20 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
+<<<<<<< HEAD
 about_profile_image: /images/jeongseokjin.jpg
 about_content: |
   저는 Java/Spring 백엔드 개발자로서, 기술로 문제를 해결하며 조직의 성공을 이끄는 데 집중합니다.  
   시스템 효율성을 극대화하고 혁신적인 솔루션으로 시간과 비용을 절감하는 개발자가 목표입니다.  
   끊임없는 성장을 통해 조직에 실질적인 가치를 더하겠습니다.
+=======
+# about_title: About Me
+about_profile_image: images/jeongseokjin.jpg
+about_content: | # this will include new lines to allow paragraphs
+  백엔드 개발을 좋아하며, 문제 해결자(problem solver)로 성장하고자 합니다.<br>
+              개발을 문제 해결을 위한 도구로 보고, 단순히 효율화나 자동화에 그치지 않고 더 넓은 범위의 문제를 해결하는 데 초점을 맞춥니다.<br>
+              이를 통해 조직의 시간과 비용을 절감하고, 업무를 자동화하며, 근본적인 비효율을 해소하여 조직의 성공에 기여하고자 합니다.
+>>>>>>> b8f271c86b6cef22d79acb323f804604feb7c15c
 
 content:
   - title: Skills
@@ -84,13 +93,19 @@ content:
           - Git, GitHub  
           - Jira, Slack
 
+<<<<<<< HEAD
   - title: Projects & Work Experience
     layout: list
+=======
+  - title: Projects & Work Experience # Title for the section
+    layout: list # Type of content section (list/text)
+>>>>>>> b8f271c86b6cef22d79acb323f804604feb7c15c
     content:
       - layout: left
         title: IT MOO U
         sub_title: 백엔드 개발자 | 물류 최적화 개발자
         caption: 2024.03 - 현재
+<<<<<<< HEAD
         link: https://github.com/Jeongseokjin/allogic-platform
         link_text: GitHub
         quote: >
@@ -100,11 +115,21 @@ content:
           - Kafka 기반 이벤트 드리븐 아키텍쳐(EDA)를 설계해 시스템 간 비동기 통신 최적화  
           - ECS 기반 배포 파이프라인을 구축해 운영비용 15% 절감 및 배포 안정성 확보  
           - AI 기술을 전략적으로 활용하여 기획부터 배포까지의 프로세스를 효율화함으로써, 초기 제품 검증 단계를 대폭 가속화  
+=======
+        # GitHub 링크가 HTML에서 제거되었으므로 여기서도 제거합니다
+        technologies: Java, Spring Boot, Kafka, Spring Cloud Stream, MongoDB, Docker, Kubernetes, AWS 기술 스택 활용
+        description: | # this will include new lines to allow paragraphs
+          - 팔레트 물류 최적화를 위한 MVP를 설계 및 개발하며 초기 서비스 검증 주도
+          - Kafka 기반 이벤트 드리븐 아키텍쳐(EDA)를 설계해 시스템 간 비동기 통신 최적화
+          - ECS 기반 배포 파이프라인을 구축해 운영비용 15% 절감 및 배포 안정성 확보
+          - AI 기술을 전략적으로 활용하여 기획부터 배포까지의 프로세스를 효율화함으로써, 초기 제품 검증 단계를 대폭 가속화
+>>>>>>> b8f271c86b6cef22d79acb323f804604feb7c15c
           - 물류 시스템의 확장성을 고려한 클라우드 네이티브 아키텍처 설계
       - layout: left
         title: WOORI ZIP
         caption: 2024.10.21 - 2024.12.06
         link: https://github.com/woorifisa-projects-3rd/woori-zip-BE/tree/main
+<<<<<<< HEAD
         link_text: GitHub
         quote: >
           React, Next.js, Spring Boot, JPA, MariaDB, AWS(EC2, S3, RDS, Route 53, CodeDeploy), Prometheus, Kakao Maps API 기술 스택 활용
@@ -113,6 +138,15 @@ content:
           - OAuth 2.0과 JWT를 활용한 우리은행 계정 연동 및 권한별 인증 시스템 구축  
           - AOP 기반 로깅 시스템을 주도적으로 개선하여 MDC와 ELK 스택으로 API 요청/응답 추적 및 실시간 모니터링 체계 확립  
           - AWS(EC2, RDS, S3) 기반 클라우드 인프라를 설계하고 CI/CD 파이프라인 구축으로 배포 자동화  
+=======
+        link_text: Woori Zip Git Hub
+        technologies: React, Next.js, Spring Boot, JPA, MariaDB, AWS(EC2, S3, RDS, Route 53, CodeDeploy), Prometheus, Kakao Maps API 기술 스택 활용
+        description: | # this will include new lines to allow paragraphs
+          - Spring Boot와 ML 모델을 활용한 금융 데이터 기반 맞춤형 부동산 추천 시스템 설계 및 구현
+          - OAuth 2.0과 JWT를 활용한 우리은행 계정 연동 및 권한별 인증 시스템 구축
+          - AOP 기반 로깅 시스템을 주도적으로 개선하여 MDC와 ELK 스택으로 API 요청/응답 추적 및 실시간 모니터링 체계 확립
+          - AWS(EC2, RDS, S3) 기반 클라우드 인프라를 설계하고 CI/CD 파이프라인 구축으로 배포 자동화
+>>>>>>> b8f271c86b6cef22d79acb323f804604feb7c15c
           - 사용자 주택 조건 및 금융 정보에 따른 최적 대출 상품 매칭 알고리즘 개발
       - layout: left
         title: (주)대원프리시전
@@ -139,8 +173,13 @@ content:
           - **팀 간 협업 및 문제 해결**  
             - 설계팀, 생산팀과 긴밀히 협력하여 설비 운영 중 발생 가능한 위험 요소를 파악하고 개선 방안 마련
 
+<<<<<<< HEAD
   - title: Presentation & Article
     layout: list
+=======
+  - title: Article # Title for the section (HTML에서는 "Article"로 변경됨)
+    layout: list # Type of content section (list/text)
+>>>>>>> b8f271c86b6cef22d79acb323f804604feb7c15c
     content:
       - layout: left
         title: 기술 서적 리뷰 참여
