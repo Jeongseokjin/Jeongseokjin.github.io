@@ -1,6 +1,6 @@
 # Site
 repository: Jeongseokjin/Jeongseokjin.github.io
-# favicon: /images/favicon.ico
+favicon: /images/favicon.ico
 
 # Content configuration version
 version: 2
@@ -10,38 +10,21 @@ name: 정석진
 title: 백엔드 개발자
 email: sj_jeong384@naver.com
 website: https://github.com/Jeongseokjin
-description: "Java와 Spring 기반 백엔드 개발자, AI 기반 물류 최적화 전문가"
+description: "Java와 Spring 기반 백엔드 개발자"
 url: "https://jeongseokjin.github.io"
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
 github_username: Jeongseokjin
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
 linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
   - title: Blog
     icon: fas fa-blog
     url: https://1223tjrwls.tistory.com/
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
 about_profile_image: /images/jeongseokjin.jpg
@@ -94,7 +77,7 @@ content:
         link: https://github.com/Jeongseokjin/allogic-platform
         link_text: GitHub
         quote: >
-          Java, Spring Boot, Kafka, Spring Cloud Stream, MongoDB, Docker, Kubernetes, AWS 기술 스택 활용
+          Java, Spring Boot, Kafka, Spring Cloud Stream, MySQL, Docker, Kubernetes, AWS 기술 스택 활용
         description: |
           - 팔레트 물류 최적화를 위한 MVP를 설계 및 개발하며 초기 서비스 검증 주도  
           - Kafka 기반 이벤트 드리븐 아키텍쳐(EDA)를 설계해 시스템 간 비동기 통신 최적화  
@@ -107,7 +90,7 @@ content:
         link: https://github.com/woorifisa-projects-3rd/woori-zip-BE/tree/main
         link_text: GitHub
         quote: >
-          React, Next.js, Spring Boot, JPA, MariaDB, AWS(EC2, S3, RDS, Route 53, CodeDeploy), Prometheus, Kakao Maps API 기술 스택 활용
+          React, Next.js, Spring Boot, JPA, MySQL, AWS(EC2, S3, RDS), Prometheus, Kakao Maps API 기술 스택 활용
         description: |
           - Spring Boot와 ML 모델을 활용한 금융 데이터 기반 맞춤형 부동산 추천 시스템 설계 및 구현  
           - OAuth 2.0과 JWT를 활용한 우리은행 계정 연동 및 권한별 인증 시스템 구축  
@@ -170,8 +153,8 @@ content:
           - 학생회장 활동으로 리더십, 협동심, 문제해결능력 강화
 
 # Footer
-footer_show_references: true
-references_title: References on request
+footer_show_references: false
+# references_title: References on request (이 설정은 footer_show_references가 true인 경우에만 적용됨)
 
 # Build settings
 remote_theme: sproogen/modern-resume-theme
