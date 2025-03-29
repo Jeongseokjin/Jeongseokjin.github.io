@@ -23,6 +23,80 @@
   display: none;
 }
 
+// 추가: 텍스트 정렬 문제 해결
+.profile-text p, .about-content p {
+  position: relative;
+  padding-left: 20px;  // 아이콘 공간 확보
+  text-align: left;
+}
+
+// 추가: 아이콘 위치 조정
+.profile-text p:before, .about-content p:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+// 추가: 줄바꿈 시 정렬 확보
+.profile-text p, .about-content p {
+  display: block;
+  margin-left: 0;
+}
+
+// 자기소개 텍스트 스타일 강화
+.profile-text p, .about-content p {
+  margin-bottom: 1.2rem;
+  line-height: 1.8;
+  font-size: 1.15rem;
+  color: #333;
+  word-spacing: 1px;
+  letter-spacing: 0.02em;
+  position: relative;
+  padding-left: 20px;
+  text-align: left;
+  display: block;
+  margin-left: 0;
+}
+
+// 첫 단락 강조
+.profile-text p:first-of-type, .about-content p:first-of-type {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+
+// 단락 간격과 강조
+.profile-text p:not(:last-child), .about-content p:not(:last-child) {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+// 마지막 단락 강조
+.profile-text p:last-of-type, .about-content p:last-of-type {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+// 단락 앞에 작은 아이콘 추가
+.profile-text p:before, .about-content p:before {
+  content: "▪ ";
+  color: #3b7ea5;
+  font-weight: bold;
+  margin-bottom: 15px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.about-text p {
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+  font-size: 1.1rem;
+}
 
 * {
   margin: 0;

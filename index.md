@@ -27,9 +27,9 @@ layout: default
                         <li><i class="fas fa-blog"></i> <a href="https://1223tjrwls.tistory.com/" target="_blank">1223tjrwls.tistory.com</a></li>
                     </ul>
                     
-                    <p class="profile-description">저는 Java/Spring 백엔드 개발자로서, 기술로 문제를 해결하며 조직의 성공을 이끄는 데 집중합니다.
-                    시스템 효율성을 극대화하고 혁신적인 솔루션으로 시간과 비용을 절감하는 개발자가 목표입니다.
-                    끊임없는 성장을 통해 조직에 실질적인 가치를 더하겠습니다.</p>
+                     <p class="about-content">저는 Java/Spring 백엔드 개발자로서, 기술로 문제를 해결하며 조직의 성공을 이끄는 데 집중합니다.</p>
+  <p class="about-content">시스템 효율성을 극대화하고 혁신적인 솔루션으로 시간과 비용을 절감하는 개발자가 목표입니다.</p>
+  <p class="about-content">끊임없는 성장을 통해 조직에 실질적인 가치를 더하겠습니다.</p>
                 </div>
             </div>
         </header>
