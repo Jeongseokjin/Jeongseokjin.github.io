@@ -204,13 +204,13 @@ layout: default
                 <ul>
                     <li><strong>&lt;코딩 자율학습 자바 입문&gt; 베타 학습단</strong>
                         <ul>
-                            <li><a href="https://www.notion.so/1c581bfd238b8008b025e60797334f8d?pvs=4" target="_blank">코딩 자율학습 자바 입문 리뷰.pdf</a></li>
+                            <li><a href="https://rune-lan-2a9.notion.site/1c581bfd238b8008b025e60797334f8d?pvs=4" target="_blank">코딩 자율학습 자바 입문 리뷰.pdf</a></li>
                             <li><a href="https://rune-lan-2a9.notion.site/1b981bfd238b8054973de480f30a200e?pvs=4" target="_blank">학습단 참여 확인서_정석진.pdf</a></li>
                         </ul>
                     </li>
                     <li><strong>[길벗] &lt;아는 만큼 보이는 IT 지식&gt; 베타 리뷰</strong>
                         <ul>
-                            <li><a href="https://www.notion.so/1c581bfd238b8030adbddac0d8c59778?pvs=4" target="_blank">베타 리더 리뷰</a></li>
+                            <li><a href="https://rune-lan-2a9.notion.site/1c581bfd238b8030adbddac0d8c59778?pvs=4" target="_blank">베타 리더 리뷰</a></li>
                         </ul>
                     </li>
                 </ul>
