@@ -109,9 +109,7 @@ layout: default
                     <span class="tech-tag">AWS</span>
                 </div>
                 
-                <a href="https://github.com/Jeongseokjin/allogic-platform" target="_blank" class="link-button">
-                    <i class="fab fa-github"></i>GitHub
-                </a>
+               
                 
                 <ul>
                     <li>팔레트 물류 최적화를 위한 MVP를 설계 및 개발하며 초기 서비스 검증 주도</li>
