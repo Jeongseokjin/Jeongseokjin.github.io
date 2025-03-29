@@ -122,38 +122,44 @@ layout: default
                 </ul>
             </div>
             
-            <!-- WOORI ZIP 프로젝트 -->
-            <div class="experience-item">
-                <div class="experience-header">
-                    <div>
-                        <h3 class="experience-title">WOORI ZIP</h3>
-                    </div>
-                    <span class="experience-period">2024.10.21 - 2024.12.06</span>
-                </div>
-                
-                <div class="tech-stack">
-                    <span class="tech-tag">React</span>
-                    <span class="tech-tag">Next.js</span>
-                    <span class="tech-tag">Spring Boot</span>
-                    <span class="tech-tag">JPA</span>
-                    <span class="tech-tag">MySQL</span>
-                    <span class="tech-tag">AWS</span>
-                    <span class="tech-tag">Prometheus</span>
-                    <span class="tech-tag">Kakao Maps API</span>
-                </div>
-                
-                <a href="https://github.com/woorifisa-projects-3rd/woori-zip-BE/tree/main" target="_blank" class="link-button">
-                    <i class="fab fa-github"></i>WOORI ZIP GitHub
-                </a>
-                
-                <ul>
-                    <li>Spring Boot와 ML 모델을 활용한 금융 데이터 기반 맞춤형 부동산 추천 시스템 설계 및 구현</li>
-                    <li>OAuth 2.0과 JWT를 활용한 우리은행 계정 연동 및 권한별 인증 시스템 구축</li>
-                    <li>AOP 기반 로깅 시스템을 주도적으로 개선하여 MDC와 ELK 스택으로 API 요청/응답 추적 및 실시간 모니터링 체계 확립</li>
-                    <li>AWS(EC2, RDS, S3) 기반 클라우드 인프라를 설계하고 CI/CD 파이프라인 구축으로 배포 자동화</li>
-                    <li>사용자 주택 조건 및 금융 정보에 따른 최적 대출 상품 매칭 알고리즘 개발</li>
-                </ul>
-            </div>
+           <!-- WOORI ZIP 프로젝트 -->
+<div class="experience-item">
+    <div class="experience-header">
+        <div>
+            <h3 class="experience-title">WOORI ZIP</h3>
+            <p class="experience-subtitle">청년 맞춤형 부동산 금융 플랫폼</p>
+        </div>
+        <span class="experience-period">2024.10.21 - 2024.12.06</span>
+    </div>
+    
+    <div class="tech-stack">
+        <span class="tech-tag">React</span>
+        <span class="tech-tag">Next.js</span>
+        <span class="tech-tag">Spring Boot</span>
+        <span class="tech-tag">JPA</span>
+        <span class="tech-tag">MySQL</span>
+        <span class="tech-tag">AWS</span>
+        <span class="tech-tag">Prometheus</span>
+        <span class="tech-tag">Kakao Maps API</span>
+    </div>
+    
+    <div class="button-group">
+        <a href="https://github.com/woorifisa-projects-3rd/woori-zip-BE/tree/main" target="_blank" class="link-button">
+            <i class="fab fa-github"></i>WOORI ZIP GitHub
+        </a>
+        <a href="https://rune-lan-2a9.notion.site/WOORI-ZIP-1b981bfd238b808cab35d1312bc1c810?pvs=4" target="_blank" class="link-button">
+            <i class="fas fa-file-alt"></i>프로젝트 요약
+        </a>
+    </div>
+    
+    <ul>
+        <li>Spring Boot와 ML 모델을 활용한 금융 데이터 기반 맞춤형 부동산 추천 시스템 설계 및 구현</li>
+        <li>OAuth 2.0과 JWT를 활용한 우리은행 계정 연동 및 권한별 인증 시스템 구축</li>
+        <li>AOP 기반 로깅 시스템을 주도적으로 개선하여 MDC와 ELK 스택으로 API 요청/응답 추적 및 실시간 모니터링 체계 확립</li>
+        <li>AWS(EC2, RDS, S3) 기반 클라우드 인프라를 설계하고 CI/CD 파이프라인 구축으로 배포 자동화</li>
+        <li>사용자 주택 조건 및 금융 정보에 따른 최적 대출 상품 매칭 알고리즘 개발</li>
+    </ul>
+</div>
 
             <!-- 대원프리시전 -->
             <div class="experience-item">

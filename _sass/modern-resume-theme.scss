@@ -92,6 +92,30 @@
   top: 0;
 }
 
+.project-summary {
+background-color: rgba(59, 126, 165, 0.08);
+border-left: 4px solid var(--primary-color);
+padding: 1rem 1.5rem;
+margin: 1.5rem 0;
+font-size: 1.1rem;
+font-style: italic;
+color: #444;
+line-height: 1.6;
+border-radius: 0 6px 6px 0;
+}
+/* 프로젝트 소제목 스타일 */
+.experience-subtitle {
+font-size: 1.2rem;
+color: #555;
+margin: 0.2rem 0 0.5rem;
+font-weight: 500;
+}
+/* 강조 텍스트 스타일 */
+.experience-item strong {
+color: var(--primary-color);
+font-weight: 600;
+}
+
 .about-text p {
   margin-bottom: 1.5rem;
   line-height: 1.7;
