@@ -194,49 +194,34 @@ layout: default
             </div>
         </section>
 
-        <!-- 아티클 섹션 -->
-        <section class="resume-section">
-            <h2 class="section-title">Article</h2>
-            
-            <div class="experience-item">
-                <div class="experience-header">
-                    <div>
-                        <h3 class="experience-title">기술 서적 리뷰 참여</h3>
-                    </div>
-                </div>
-                
-                <ul>
-                    <li><strong>&lt;코딩 자율학습 자바 입문&gt; 베타 학습단</strong>
-                        <ul>
-                            <li><a href="https://rune-lan-2a9.notion.site/1c581bfd238b8008b025e60797334f8d?pvs=4" target="_blank">코딩 자율학습 자바 입문 리뷰.pdf</a></li>
-                            <li><a href="https://rune-lan-2a9.notion.site/1b981bfd238b8054973de480f30a200e?pvs=4" target="_blank">학습단 참여 확인서_정석진.pdf</a></li>
-                        </ul>
-                    </li>
-                    <li><strong>[길벗] &lt;아는 만큼 보이는 IT 지식&gt; 베타 리뷰</strong>
-                        <ul>
-                            <li><a href="https://rune-lan-2a9.notion.site/1c581bfd238b8030adbddac0d8c59778?pvs=4" target="_blank">베타 리더 리뷰</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            
-            <div class="experience-item">
-                <div class="experience-header">
-                    <div>
-                        <h3 class="experience-title">개인 블로그 활동</h3>
-                    </div>
-                </div>
-                
-                <a href="https://1223tjrwls.tistory.com/" target="_blank" class="link-button">
-                    <i class="fas fa-blog"></i>정석진 개인 블로그
-                </a>
-                
-                <ul>
-                    <li>이슈 해결 사례 및 기술 노하우 공유</li>
-                    <li>물류 최적화 및 이벤트 드리븐 아키텍처 관련 기술 분석</li>
-                </ul>
-            </div>
-        </section>
+     <!-- Article 섹션 -->
+<section class="resume-section">
+  <h2 class="section-title">Article</h2>
+  
+  <h3>기술 서적 리뷰 참여</h3>
+  <ul>
+    <li>&lt;코딩 자율학습 자바 입문&gt; 베타 학습단
+      <ul>
+        <li><a href="https://rune-lan-2a9.notion.site/1c581bfd238b8008b025e60797334f8d">코딩 자율학습 자바 입문 리뷰.pdf</a></li>
+        <li><a href="https://rune-lan-2a9.notion.site/1b981bfd238b8054973de480f30a200e">학습단 참여 확인서_정석진.pdf</a></li>
+      </ul>
+    </li>
+    <li>[길벗] &lt;아는 만큼 보이는 IT 지식&gt; 베타 리뷰
+      <ul>
+        <li><a href="https://rune-lan-2a9.notion.site/1c581bfd238b8030adbddac0d8c59778">베타 리더 리뷰.pdf</a></li>
+      </ul>
+    </li>
+  </ul>
+  
+  <h3>개인 블로그 활동</h3>
+  <a href="https://1223tjrwls.tistory.com/" class="blog-button">
+    <i class="fas fa-blog"></i> 정석진 개인 블로그
+  </a>
+  <ul>
+    <li>이슈 해결 사례 및 기술 노하우 공유</li>
+    <li>물류 최적화 및 이벤트 드리븐 아키텍처 관련 기술 분석</li>
+  </ul>
+</section>
 
         <!-- 교육 섹션 -->
         <section class="resume-section">
