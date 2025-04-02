@@ -108,6 +108,12 @@ layout: default
                     <span class="tech-tag">Kubernetes</span>
                     <span class="tech-tag">AWS</span>
                 </div>
+
+                <div class="button-group">
+        <a href="https://rune-lan-2a9.notion.site/Allogic-1c881bfd238b809184cbf5cff8f68e82?pvs=4" target="_blank" class="link-button">
+            <i class="fas fa-file-alt"></i>프로젝트 요약
+        </a>
+    </div>
                 
                
                 
